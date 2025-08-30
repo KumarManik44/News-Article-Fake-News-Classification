@@ -44,6 +44,10 @@ fake-news-detection/
 │   └── tfidf_vectorizer.pkl        # TF-IDF vectorizer
 ├── notebooks/
 │   └── Fake_News_Detection.ipynb   # Complete analysis
+├── src/
+│   ├── __init__.py
+│   ├── preprocessing.py            # Text preprocessing functions
+│   └── model_training.py           # Model training utilities
 ├── app/
 │   └── fake_news_app.py            # Streamlit web application
 ├── requirements.txt                # Python dependencies
