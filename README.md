@@ -6,6 +6,10 @@ A machine learning project that classifies news articles as fake or real using N
 
 This project implements an end-to-end fake news detection system with a web interface. It achieves **92.19% accuracy** on a balanced dataset of 6,335 news articles using TF-IDF vectorization and Logistic Regression.
 
+## 🚀 Live Demo
+
+[**Try the App Here**](https://fakenewsclassification84532.streamlit.app/)
+
 ## 🚀 Features
 
 - **High Accuracy**: 92.19% accuracy with 92.34% F1-score
