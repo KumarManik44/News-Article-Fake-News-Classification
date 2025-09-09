@@ -25,7 +25,7 @@ download_nltk_data()
 @st.cache_resource
 def load_model():
     model = joblib.load('models/fake_news_model.pkl')
-    vectorizer = joblib.load('tfidf_vectorizer.pkl')
+    vectorizer = joblib.load('models/tfidf_vectorizer.pkl')
     return model, vectorizer
 
 # Text preprocessing function
@@ -164,4 +164,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
