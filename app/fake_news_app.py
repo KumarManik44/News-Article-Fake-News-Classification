@@ -24,7 +24,7 @@ download_nltk_data()
 # Load the trained model and vectorizer
 @st.cache_resource
 def load_model():
-    model = joblib.load('fake_news_model.pkl')
+    model = joblib.load('models/fake_news_model.pkl')
     vectorizer = joblib.load('tfidf_vectorizer.pkl')
     return model, vectorizer
 
@@ -164,3 +164,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
